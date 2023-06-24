@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: yellow;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.item:hover{
+    /* background-color: #ff6b08; */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.isOnline{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.isOffline{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
